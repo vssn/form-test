@@ -1,0 +1,23 @@
+{
+  "name": "form-test",
+  "version": "1.0.0",
+  "description": "Reproducing issue with LionFieldset serializeGroup",
+  "main": "index.js",
+  "scripts": {
+    "start": "owc-dev-server -o",
+    "test": "karma start --coverage",
+    "test:watch": "karma start --auto-watch=true --single-run=false"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@lion/fieldset": "^0.1.16",
+    "@open-wc/testing": "^0.12.5",
+    "@open-wc/testing-karma": "^2.0.3",
+    "lit-element": "^2.1.0",
+    "owc-dev-server": "^0.4.3"
+  },
+  "dependencies": {
+    "@lion/input": "^0.1.16"
+  }
+}
